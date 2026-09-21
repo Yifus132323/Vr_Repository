@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "PruebaInputActions",
+    "maps": [
+        {
+            "name": "VR Control Izquierdo",
+            "id": "a854929a-1fa3-44e7-9336-dd148842597a",
+            "actions": [
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "04cf2fc5-316e-49bd-9664-a272bb6b3cb6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Sector",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Menu Tactil",
+                    "type": "Button",
+                    "id": "c782087d-4bcd-4b76-b3c1-9cbb5cf5eb9a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "936f60a0-e7be-4043-af85-77add735b464",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu Tactil",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb7a4f05-e766-4433-8749-4bf1c6dd061f",
+                    "path": "<XRController>{LeftHand}/{MenuButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
