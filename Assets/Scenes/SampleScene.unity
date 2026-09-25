@@ -2443,6 +2443,32 @@ MonoBehaviour:
       m_Flags: 0
       m_Priority: 0
     m_Reference: {fileID: -2897166006765680948, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoIzquierdaAccionPrimaria:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Izquierda Accion Primaria
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 873bbdcf-36d3-4b4d-869d-baea844c6788
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: -1331834359443717377, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoIzquierdaDisparador:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Izquierda Disparador
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 7cf290ed-3e90-44e3-85b2-6c3be3045fd7
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 2258632094624672920, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
 --- !u!4 &373739409
 Transform:
   m_ObjectHideFlags: 0
@@ -10729,6 +10755,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4007501367374285879, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_ActionAssets.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007501367374285879, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: 'm_ActionAssets.Array.data[1]'
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
     - target: {fileID: 4750419573833148750, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
