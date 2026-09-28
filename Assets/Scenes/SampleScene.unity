@@ -2469,6 +2469,227 @@ MonoBehaviour:
       m_Flags: 0
       m_Priority: 0
     m_Reference: {fileID: 2258632094624672920, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoIzquierdaAgarre:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Izquierda Agarre
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 5f3dff92-e09c-48c9-9736-3a76d674c038
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 207803364406124799, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoIzquierdaAccionSecundaria:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Izquierda Accion Secundaria
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: c0fa7a51-a5a0-4b55-82a7-4bbeab90541b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 7903125315339552817, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoIzquierdaEje2DSectorN:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Izquierda Eje 2D Sector N
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: b485c58d-65ab-4540-b05f-f7f1366a1a51
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: -2624040138534135813, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoIzquierdaEje2DSectorS:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Izquierda Eje 2D Sector S
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: f3677f87-215e-494c-bd07-1ab8b4bc9a08
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 115540817622243795, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoIzquierdaEje2DSectorE:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Izquierda Eje 2D Sector E
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 732d9c20-2ac9-4633-96b4-7c784e50b703
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: -4707370142446733652, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoIzquierdaEje2DSectorO:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Izquierda Eje 2D Sector O
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: fb589237-1c95-469b-9dd3-f90c47b604f2
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: -75358287702558316, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoIzquierdaBotonEje2D:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Izquierda Boton Eje 2D
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 6682ab06-025f-4d80-9ca3-caf1c2918cf8
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 1241619722175929828, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoDerechaBotonMenu:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Derecha Boton Menu
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ba7b9406-b8c1-4d90-b0d8-f3b186156b22
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  manoDerechaAccionPrimaria:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mano Derecha Accion Primaria
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 780bcbb4-a7b6-47a4-bbe1-b4a42056114b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  manoDerechaDisparador:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mano Derecha Disparador
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: c609910e-5fc3-4311-8888-f2ffefd8a7a8
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  manoDerechaAgarre:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mano Derecha Agarre
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 6b116487-a562-4453-b0fc-d84edf8dce1f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  manoDerechaAccionSecundaria:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mano Derecha Accion Secundaria
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 6e7956ba-4715-437a-a9ea-d8fdb4946f44
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  manoDerechaEje2DSectorN:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mano Derecha Eje 2D Sector N
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 63dd62ff-e717-4b69-8dd6-2812d6859ea4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  manoDerechaEje2DSectorS:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mano Derecha Eje 2D Sector S
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ab93597b-480c-41d5-81ba-ac847d699cbd
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  manoDerechaEje2DSectorE:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mano Derecha Eje 2D Sector E
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: cafc2f02-e161-4ded-81b7-021e892e9269
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  manoDerechaEje2DSectorO:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mano Derecha Eje 2D Sector O
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 771b3e0b-13d3-41ee-af23-4296c78f178b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  manoDerechaBotonEje2D:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mano Derecha Boton Eje 2D
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 072fa1da-f1f0-4304-b5fe-44da9bce5a43
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
 --- !u!4 &373739409
 Transform:
   m_ObjectHideFlags: 0

@@ -27,9 +27,79 @@
                     "priority": 0
                 },
                 {
+                    "name": "Accion Secundaria",
+                    "type": "Button",
+                    "id": "35ab5105-97d4-4dd2-aa2e-88246a8419d7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
                     "name": "Disparador",
                     "type": "Button",
                     "id": "eff770e2-ba9b-4c78-95a6-77d61c0cb915",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Agarre",
+                    "type": "Button",
+                    "id": "38645ecc-5cac-451f-99b8-9bddf250598c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector N",
+                    "type": "Value",
+                    "id": "30363549-f39f-48c9-ab5e-2b6f88af6993",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector S",
+                    "type": "Value",
+                    "id": "79d327cd-03e2-4140-b58c-d2cabe8500eb",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector E",
+                    "type": "Value",
+                    "id": "312b1dc7-830c-4586-8b0e-9ff155bcb0b4",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector O",
+                    "type": "Value",
+                    "id": "2636bef1-0af4-4f59-82e6-dc4733a834a1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Boton Eje2D",
+                    "type": "Button",
+                    "id": "03201b69-013a-4b37-a349-89a89b2ddb3a",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -68,6 +138,127 @@
                     "processors": "",
                     "groups": "",
                     "action": "Disparador",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a01fb9d-9ff1-4b4f-82eb-12bb2b7d8081",
+                    "path": "<XRController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Agarre",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "145f4b54-c956-463b-bfd9-23588721aa33",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accion Secundaria",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7d202a4-7af6-43c4-9d7c-b9b0d5eb4de2",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "Sector(directions=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector N",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59cff2f9-749e-4051-9c9a-2988237a1a7c",
+                    "path": "<XInputController>/rightStick",
+                    "interactions": "Sector(directions=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector N",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a4f1e3ff-d842-4630-a8cd-09f0f645791e",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "Sector(directions=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector S",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "54d4bad8-c91f-497e-82a4-436ecd2e1a5f",
+                    "path": "<XInputController>/rightStick",
+                    "interactions": "Sector(directions=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector S",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "123f11a1-a4b7-4827-ac2b-0728f4cc6341",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "Sector(directions=4)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector E",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d65f138-58ac-4a10-9631-140bcd77fe40",
+                    "path": "<XInputController>/rightStick",
+                    "interactions": "Sector(directions=4)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector E",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0fb5f7fd-c5bd-4149-8ce2-987c6f8b67c2",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "Sector(directions=8)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector O",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "159aebcb-c7f3-444d-8cf6-f5a7d9029d70",
+                    "path": "<XInputController>/rightStick",
+                    "interactions": "Sector(directions=8)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector O",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "054b524e-30ab-4efb-b5bf-5076938b7dfd",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Boton Eje2D",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
