@@ -37,7 +37,7 @@
                     "priority": 0
                 },
                 {
-                    "name": "Disparador",
+                    "name": "Disparador Boton",
                     "type": "Button",
                     "id": "eff770e2-ba9b-4c78-95a6-77d61c0cb915",
                     "expectedControlType": "",
@@ -47,7 +47,7 @@
                     "priority": 0
                 },
                 {
-                    "name": "Agarre",
+                    "name": "Agarre Boton",
                     "type": "Button",
                     "id": "38645ecc-5cac-451f-99b8-9bddf250598c",
                     "expectedControlType": "",
@@ -105,6 +105,26 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+                },
+                {
+                    "name": "Disparador",
+                    "type": "Value",
+                    "id": "fad733d7-6cf4-4a1d-b981-8e73bd6641a7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Agarre",
+                    "type": "Value",
+                    "id": "71abf442-b124-457d-a9de-089a7f768ed4",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -137,7 +157,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Disparador",
+                    "action": "Disparador Boton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -148,7 +168,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Agarre",
+                    "action": "Agarre Boton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -176,30 +196,8 @@
                 },
                 {
                     "name": "",
-                    "id": "59cff2f9-749e-4051-9c9a-2988237a1a7c",
-                    "path": "<XInputController>/rightStick",
-                    "interactions": "Sector(directions=1)",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Eje2D Sector N",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "a4f1e3ff-d842-4630-a8cd-09f0f645791e",
                     "path": "<XRController>{LeftHand}/{Primary2DAxis}",
-                    "interactions": "Sector(directions=2)",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Eje2D Sector S",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "54d4bad8-c91f-497e-82a4-436ecd2e1a5f",
-                    "path": "<XInputController>/rightStick",
                     "interactions": "Sector(directions=2)",
                     "processors": "",
                     "groups": "",
@@ -220,30 +218,8 @@
                 },
                 {
                     "name": "",
-                    "id": "3d65f138-58ac-4a10-9631-140bcd77fe40",
-                    "path": "<XInputController>/rightStick",
-                    "interactions": "Sector(directions=4)",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Eje2D Sector E",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "0fb5f7fd-c5bd-4149-8ce2-987c6f8b67c2",
                     "path": "<XRController>{LeftHand}/{Primary2DAxis}",
-                    "interactions": "Sector(directions=8)",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Eje2D Sector O",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "159aebcb-c7f3-444d-8cf6-f5a7d9029d70",
-                    "path": "<XInputController>/rightStick",
                     "interactions": "Sector(directions=8)",
                     "processors": "",
                     "groups": "",
@@ -259,6 +235,288 @@
                     "processors": "",
                     "groups": "",
                     "action": "Boton Eje2D",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "699e5637-7b58-4274-9caf-bbfefa28cacf",
+                    "path": "<XRController>{LeftHand}/{Trigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Disparador",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "960d7c75-5cd2-44f6-90fd-6ac70c33f048",
+                    "path": "<XRController>{LeftHand}/{Grip}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Agarre",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "VR Control Derecho",
+            "id": "9f969668-8a3e-4058-8fc3-8e9705617d95",
+            "actions": [
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "19a0d49c-dbc0-4364-bc6d-d69ffaaae56b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Accion Primaria",
+                    "type": "Button",
+                    "id": "1462dfd9-2d00-4be1-b015-1ff39298eb12",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Accion Secundaria",
+                    "type": "Button",
+                    "id": "ec254200-3b4d-49f7-9906-aadc9a75c8bb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Disparador Boton",
+                    "type": "Button",
+                    "id": "efc55617-5399-4887-94d4-f4c2c640fbca",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Agarre Boton",
+                    "type": "Button",
+                    "id": "4b26592a-4086-4703-b461-93b5087a8b28",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector N",
+                    "type": "Value",
+                    "id": "3cb4fb3e-b3b9-462d-a145-b79ca805d7cb",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector S",
+                    "type": "Value",
+                    "id": "301941ee-9913-4344-8148-10532c6fa90f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector E",
+                    "type": "Value",
+                    "id": "bad6a9d2-5379-4852-a7af-479710ad373c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector O",
+                    "type": "Value",
+                    "id": "b61434fd-0c2d-43e8-824d-d634d91bcc5e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Boton Eje2D",
+                    "type": "Button",
+                    "id": "c51021ee-ce9b-487a-ab85-3db98701207c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Disparador",
+                    "type": "Value",
+                    "id": "fe3d05a5-1a97-4be9-939e-4efbeed559e7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Agarre",
+                    "type": "Value",
+                    "id": "8213f2d6-7e20-4546-a4ee-22d93ed9a4f8",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "765de67c-129b-42c1-9787-81d522d50551",
+                    "path": "<XRController>{RightHand}/{MenuButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b964e556-b0ea-4fbb-8cf8-f526698cee90",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accion Primaria",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10904ba5-e313-4127-8ee5-37d4d3fa0c37",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Disparador Boton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f61d90a3-b41e-4e80-b2f2-7b773aa4e36a",
+                    "path": "<XRController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Agarre Boton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "75b33c21-d7c3-457a-85fb-2000fdaec209",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accion Secundaria",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "75434e37-8ba7-4a65-a390-34649ceda17b",
+                    "path": "<XRController>{RightHand}/{Primary2DAxis}",
+                    "interactions": "Sector(directions=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector N",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94da2b49-14e2-4794-8ccf-759e19c75203",
+                    "path": "<XRController>{RightHand}/{Primary2DAxis}",
+                    "interactions": "Sector(directions=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector S",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4876b86c-90dc-4636-9b98-92ec0f5362c8",
+                    "path": "<XRController>{RightHand}/{Primary2DAxis}",
+                    "interactions": "Sector(directions=4)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector E",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5a87829d-ea38-4305-bf3f-6fb242c4de44",
+                    "path": "<XRController>{RightHand}/{Primary2DAxis}",
+                    "interactions": "Sector(directions=8)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector O",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ed193535-bd10-45c9-8792-1ac85fa89c80",
+                    "path": "<XRController>{RightHand}/{Primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Boton Eje2D",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42a8b649-5786-4a2c-9726-008bd5098827",
+                    "path": "<XRController>{RightHand}/{Trigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Disparador",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "54e39a84-4b53-4db1-a78e-b578086a6330",
+                    "path": "<XRController>{RightHand}/{Grip}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Agarre",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -2462,7 +2462,20 @@ MonoBehaviour:
       m_Name: Mano Izquierda Disparador
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 7cf290ed-3e90-44e3-85b2-6c3be3045fd7
+      m_Id: 9026b5a4-471c-41b6-b315-5934de6e41ea
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: -6413624229588988964, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoIzquierdaDisparadorBoton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Izquierda Disparador Boton
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 848f3c63-0cc8-4da6-a8ba-34deb756d4de
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2475,7 +2488,20 @@ MonoBehaviour:
       m_Name: Mano Izquierda Agarre
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 5f3dff92-e09c-48c9-9736-3a76d674c038
+      m_Id: 76f64946-f9e9-498a-88ee-ec91cc47e46c
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: -8049992538118862542, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoIzquierdaAgarreBoton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Izquierda Agarre Boton
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 4b914634-14cd-481d-b850-8c94e2a70572
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2572,9 +2598,9 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: 8925985455451272310, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
   manoDerechaAccionPrimaria:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Mano Derecha Accion Primaria
       m_Type: 0
@@ -2585,35 +2611,61 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: -6067663313733957186, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
   manoDerechaDisparador:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Mano Derecha Disparador
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: c609910e-5fc3-4311-8888-f2ffefd8a7a8
+      m_Id: f79f7edb-1d3a-4e4e-98ae-e4b5266defd3
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: 627567641027764463, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoDerechaDisparadorBoton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Derecha Disparador Boton
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 12564510-0324-4561-83fb-6a0d983efa8d
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: -4663509928853978553, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
   manoDerechaAgarre:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Mano Derecha Agarre
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 6b116487-a562-4453-b0fc-d84edf8dce1f
+      m_Id: c663ed8a-dfb4-46e6-8727-54ace1bb51f8
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: 3430580200858605368, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
+  manoDerechaAgarreBoton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Mano Derecha Agarre Boton
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ec1e3546-8134-4628-8f5b-54bf72c1f8f4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 1910414999103275395, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
   manoDerechaAccionSecundaria:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Mano Derecha Accion Secundaria
       m_Type: 0
@@ -2624,9 +2676,9 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: 6697980664051675154, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
   manoDerechaEje2DSectorN:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Mano Derecha Eje 2D Sector N
       m_Type: 0
@@ -2637,9 +2689,9 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: -4825311566363134243, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
   manoDerechaEje2DSectorS:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Mano Derecha Eje 2D Sector S
       m_Type: 0
@@ -2650,9 +2702,9 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: 8953084372248153082, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
   manoDerechaEje2DSectorE:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Mano Derecha Eje 2D Sector E
       m_Type: 0
@@ -2663,9 +2715,9 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: -6970284086565182340, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
   manoDerechaEje2DSectorO:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Mano Derecha Eje 2D Sector O
       m_Type: 0
@@ -2676,9 +2728,9 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: -6157950114449522551, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
   manoDerechaBotonEje2D:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Mano Derecha Boton Eje 2D
       m_Type: 0
@@ -2689,7 +2741,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: -8268894176332881601, guid: e96ef65aaf8685549b37655e1be277c9, type: 3}
 --- !u!4 &373739409
 Transform:
   m_ObjectHideFlags: 0
